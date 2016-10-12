@@ -1,0 +1,234 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="chess_command_instructions" xml:space="preserve">
+    <value>Chesspiece, from position, to position Example N B1 C3 (P: pawn,  N: knight, B: bishop, R: rook, Q: queen, K: king).</value>
+  </data>
+  <data name="chess_give_command" xml:space="preserve">
+    <value>Give command to move chess piece.</value>
+  </data>
+  <data name="chess_movement_check" xml:space="preserve">
+    <value>Check!</value>
+  </data>
+  <data name="chess_movement_checkmate" xml:space="preserve">
+    <value>Checkmate!</value>
+  </data>
+  <data name="chess_movement_invalid_check" xml:space="preserve">
+    <value>That movement is invalid as it would trigger check for your king.</value>
+  </data>
+  <data name="chess_new_piece" xml:space="preserve">
+    <value>Choose a new Chess piece (P: pawn,  N: knight, B: bishop, R: rook, Q: queen, K: king).</value>
+  </data>
+  <data name="game_choose" xml:space="preserve">
+    <value>What game would you like to play?</value>
+  </data>
+  <data name="player_defeated" xml:space="preserve">
+    <value>You have lost the game. :(</value>
+  </data>
+  <data name="player_enemyturn" xml:space="preserve">
+    <value>Enemy turn to move.</value>
+  </data>
+  <data name="games_list" xml:space="preserve">
+    <value>Current games are available: {0}.</value>
+  </data>
+  <data name="game_cannot_start" xml:space="preserve">
+    <value>Game cannot be started.</value>
+  </data>
+  <data name="game_has_ended" xml:space="preserve">
+    <value>The game has ended.</value>
+  </data>
+  <data name="game_has_started" xml:space="preserve">
+    <value>The game has started.</value>
+  </data>
+  <data name="game_is_starting" xml:space="preserve">
+    <value>The game is loading.</value>
+  </data>
+  <data name="game_player_numbers" xml:space="preserve">
+    <value>The game can be played only by {0} player(s).</value>
+  </data>
+  <data name="input_cell_from_empty" xml:space="preserve">
+    <value>The selected 'from' cell is empty.</value>
+  </data>
+  <data name="input_cell_wrong_owner" xml:space="preserve">
+    <value>The selected 'from' piece is not yours.</value>
+  </data>
+  <data name="input_cell_wrong_piece_type" xml:space="preserve">
+    <value>The selected 'from' piece is something different: {0}.</value>
+  </data>
+  <data name="input_invalid_parameters" xml:space="preserve">
+    <value>The input has invalid parameter(s) {0}.</value>
+  </data>
+  <data name="input_missing_parameters" xml:space="preserve">
+    <value>The input has missing parameter(s).</value>
+  </data>
+  <data name="input_not_enough_parameters" xml:space="preserve">
+    <value>There are not enough input parameters (piece from to).</value>
+  </data>
+  <data name="player_give_name" xml:space="preserve">
+    <value>Please provide a name for {0} player.</value>
+  </data>
+  <data name="player_turn" xml:space="preserve">
+    <value>{0}'s turn to move.</value>
+  </data>
+  <data name="player_victory" xml:space="preserve">
+    <value>You won the game! ^^</value>
+  </data>
+  <data name="wrong_position_does_not_exist" xml:space="preserve">
+    <value>Wrong position, it does not exist.</value>
+  </data>
+  <data name="wrong_position_invalid" xml:space="preserve">
+    <value>Wrong position, you cannot do that.</value>
+  </data>
+  <data name="player_yourturn" xml:space="preserve">
+    <value>Your turn to move.</value>
+  </data>
+  <data name="game_invalid_table_position" xml:space="preserve">
+    <value>That is not a valid position on the table.</value>
+  </data>
+  <data name="player_game_win" xml:space="preserve">
+    <value>Player {0} wins the game!</value>
+  </data>
+  <data name="draughts_instructions" xml:space="preserve">
+    <value>This is a draughts game. There are simple figures (Man - M) which can be promoted to powerful ones (King - K). You may move a piece by defining the starting and ending position. If you would jump multiple times, then you have to add these commands one after another. Command example: D3 F5 or D3 F5 -enter- F5 D7.</value>
+  </data>
+  <data name="draughts_do_turn_jump" xml:space="preserve">
+    <value>You can and must jump and capture with a piece of yours.</value>
+  </data>
+  <data name="draughts_piece_promote" xml:space="preserve">
+    <value>Your Man piece has been promoted to King!</value>
+  </data>
+  <data name="draughts_end_enemy_killed" xml:space="preserve">
+    <value>You have captured all the enemy pieces!</value>
+  </data>
+  <data name="game_exit" xml:space="preserve">
+    <value>You have aborted the currently running game.</value>
+  </data>
+  <data name="game_commands" xml:space="preserve">
+    <value>There are some commands you may execute during game. These are the following: 'quit', 'exit'.</value>
+  </data>
+  <data name="factory_commands" xml:space="preserve">
+    <value>There are some commands you may execute here. 'none', 'quit', 'exit' aborts the game creation.</value>
+  </data>
+  <data name="factory_local_or_network" xml:space="preserve">
+    <value>Would you like to play the game locally or on the network?</value>
+  </data>
+  <data name="factory_exit" xml:space="preserve">
+    <value>You have terminated the game menu.</value>
+  </data>
+</root>

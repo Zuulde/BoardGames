@@ -1,0 +1,31 @@
+﻿<Window x:Class="WpfUI.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="850" Width="1225"
+        Closing="Window_Closing">
+    <Grid x:Name="MainAreaGrid">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="7*" />
+            <ColumnDefinition Width="3*" />
+        </Grid.ColumnDefinitions>
+        <UniformGrid x:Name="BoardUniformGrid">
+        </UniformGrid>
+        <DockPanel Grid.Row="1" Grid.Column="2" >
+            <Label Content="User commands"
+                   HorizontalAlignment="Stretch" DockPanel.Dock="Top"/>
+            <TextBox x:Name="TextBox_userInput" Text=""
+                     TabIndex="1"
+                     HorizontalAlignment="Stretch" DockPanel.Dock="Top"
+                     KeyUp="TextBox_userInput_KeyUp"
+                     />
+
+            <Button Content="Do" Click="Button_Click" DockPanel.Dock="Top"/>
+
+            <Label Content="Game messages" HorizontalAlignment="Left" DockPanel.Dock="Top"/>
+            <TextBox x:Name="TextBox_MessagaArea" Text="" TextWrapping="Wrap"
+                     HorizontalAlignment="Stretch" Height="Auto" DockPanel.Dock="Top"
+                     ScrollViewer.VerticalScrollBarVisibility="Visible" TextChanged="TextBox_MessagaArea_TextChanged"
+                   />
+        </DockPanel>
+    </Grid>
+</Window>
